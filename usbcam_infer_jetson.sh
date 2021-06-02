@@ -3,7 +3,7 @@
 #
 # MIT License
 # 
-# Copyright (c) 2019 MACNICA Inc.
+# Copyright (c) 2019, 2020, 2021 MACNICA Inc.
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -33,7 +33,7 @@ else
     HEIGHT=720
 fi
 
-DS_PATH="/opt/nvidia/deepstream/deepstream-4.0"
+DS_PATH="/opt/nvidia/deepstream/deepstream"
 INFER_CFG="$DS_PATH/sources/apps/sample_apps/deepstream-test1/dstest1_pgie_config.txt"
 
 gst-launch-1.0 \
